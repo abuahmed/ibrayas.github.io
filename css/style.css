@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: #f1efff;
+    font-family: helvetica;
+}
+#title {
+    color: #73a9c2;
+}
+#container {
+   
+    margin: 0 auto;
+    background: #e0dbff;
+    padding: 30px 0;
+}
+div{
+    display: block;
+    margin: 15px 0;
+}
+.name-label {
+    display: inline-block;
+}
+.input-name {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

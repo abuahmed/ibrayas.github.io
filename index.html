@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Pizza survey</h1>
+      <p id="description">Survey for Pizza service.</p>
+      <div id="container">
+      <form id="survey-form">
+        <div>
+          <label id="name-label" >Name :</label>
+          <input id="name" type="text" placeholder="Name" required>
+        </div>
+        <div>
+          <label id="email-label">Email: </label>
+          <input type="email" placeholder="Email" id="email" required>
+        </div>
+        <div>
+          <label id="number-label">Age: </label>
+          <input type="number" placeholder="Number" min="9" max="12" id="number">
+        </div>
+        <div>
+          <label>Quality: </label>
+          <select id="dropdown">
+            <option>Average</option>
+            <option>Good</option>
+            <option>Excellent</option>
+          </select>
+        </div>
+        <div>
+          <label id="type-label">Pizza Type: </label>
+          <input type="radio" name="pizza-type" value="type">Greek pizza</input>
+          <input type="radio" name="pizza-type" value="type">chicago pizza</input>
+        </div>
+        <div>
+          <label id="city">City: </label>
+          <input type="checkbox" value="City1">Washington</input>
+          <input type="checkbox" value="City2">New york</input>
+          <input type="checkbox" value="City3">Los angeles</input>
+        </div>
+        <div>
+          <label>Comments: </label>
+          <textarea>comments.</textarea>
+        </div>
+        <input id="submit" type="submit" value="sumbit">
+      </form>
+      </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
+    
+  </body>
+</html>
